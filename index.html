@@ -1,0 +1,300 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<!--
+/* ==========================================
+ * JGraphT : a free Java graph-theory library
+ * ==========================================
+ *
+ * Project Info:  http://jgrapht.sourceforge.net/
+ * Project Lead:  Barak Naveh (http://sourceforge.net/users/barak_naveh)
+ *
+ * (C) Copyright 2003-2010, by Barak Naveh and Contributors.
+ *
+ * This library is free software; you can redistribute it and/or modify it
+ * under the terms of the GNU Lesser General Public License as published by
+ * the Free Software Foundation; either version 2.1 of the License, or
+ * (at your option) any later version.
+ *
+ * This library is distributed in the hope that it will be useful, but
+ * WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY
+ * or FITNESS FOR A PARTICULAR PURPOSE. See the GNU Lesser General Public
+ * License for more details.
+ *
+ * You should have received a copy of the GNU Lesser General Public License
+ * along with this library; if not, write to the Free Software Foundation, Inc.,
+ * 59 Temple Place, Suite 330, Boston, MA 02111-1307, USA.
+ */
+/* ~~~~~~~~~~
+ * index.html
+ * ~~~~~~~~~~
+ * (C) Copyright 2003-2010, by Barak Naveh and Contributors.
+ *
+ * Original Author:  Barak Naveh
+ * Contributor(s):   -
+ *
+ * $Id: index.html 759 2012-01-20 00:15:19Z perfecthash $
+ *
+ * Changes
+ * ~~~~~~~
+ * 27-Jul-2003 : Initial revision (BN);
+ * 29-Jul-2003 : Local HelloJGraphT, stat counter, highlighted download link (BN);
+ * 03-Aug-2003 : Added comparison to JGraph (BN);
+ * 02-Jul-2006 : Updates for 0.7.0 (JVS);
+ * 20-Mar-2007 : Updates for 0.7.1 (JVS);
+ * 29-Sep-2007 : Updates for 0.7.2 (JVS);
+ * 27-Jan-2008 : Updates for 0.7.3 (JVS);
+ * 28-Sep-2008 : Updates for 0.8.0 (JVS);
+ * 03-Jul-2009 : Updates for 0.8.1 (JVS);
+ * 27-Nov-2010 : Updates for 0.8.2 (JVS);
+ * 19-Jan-2012 : Updates for 0.8.3 (JVS);
+ * 
+ */
+-->
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+  <meta name="Author" content="Barak Naveh">
+  <meta name="keywords" content="JGraphT, java, graph, library, java graph library, theory, graph-theory, free, JGraph, open-source">
+  <title>Welcome to JGraphT - a free Java Graph Library</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/all.js#xfbml=1";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+<h1><font size="7"><font color="#CC3399">J</font>Graph<font color="#FFCC00">T</font></font><font size="3">&nbsp;</font><br>
+
+
+</h1>
+
+<div align="right">
+<script type="text/javascript" src="http://www.ohloh.net/p/12112/widgets/project_partner_badge.js"></script>
+</div>
+
+<h2>Latest News</h2>
+
+<p>
+
+<b>JGraphT source code has moved from the old svn repository to
+<a href="http://github.com/jgrapht/jgrapht">github</a>.</b>  Please send
+all new contributions there in the form of pull requests!
+
+</p>
+
+<p>
+
+Release 0.8.3 is now available.  As of 0.8.0, JGraphT now
+requires Java 1.6 to build and run.  If you are stuck on an earlier
+JVM/JDK version, you can keep using older releases of JGraphT.
+
+<p>
+
+If you'd like to help out with project maintenance, click the Like button for
+our <a href="https://www.facebook.com/jgrapht.adopt.a.highway">"Adopt-a-Highway" initiative on Facebook</a>!
+
+</p>
+
+<p>
+
+<div class="fb-like-box" data-href="http://www.facebook.com/jgrapht.adopt.a.highway" data-width="600" data-show-faces="true" data-stream="false" data-header="false"></div>
+
+</p>
+
+<h2>About JGraphT</h2>
+
+<p>JGraphT is a free Java graph library that provides 
+mathematical graph-theory objects and algorithms. JGraphT supports 
+various types of graphs including: </p>
+
+<ul>
+  <li><b>directed</b> and <b>undirected</b> graphs.</li>
+  <li>graphs with <b>weighted</b> / <b>unweighted</b> / labeled or any 
+  user-defined edges.</li>
+  <li>various edge multiplicity options, including: <b>simple-graphs</b>,
+  <b>multigraphs</b>, <b>pseudographs</b>. </li>
+  <li><b>unmodifiable</b> graphs - allow modules to provide  
+  &quot;read-only&quot; access to  internal graphs.</li>
+  <li><b>listenable</b> graphs - allow external listeners to track  modification events.</li>
+  <li><b>subgraphs</b> graphs that are auto-updating subgraph views on 
+  other graphs.</li>
+  <li>all compositions of above graphs.</li>
+</ul>
+<p>Although powerful, JGraphT is designed to be <b>simple</b>
+and <b>type-safe</b> (via Java generics). For example,
+graph vertices can be of any objects. You can create graphs based on: Strings,
+URLs, XML documents, etc; you can even create graphs of graphs! This
+<a href="https://sourceforge.net/apps/mediawiki/jgrapht/index.php?title=jgrapht:HelloWorld">code example</a> shows how.</p>
+<p>Other features offered by JGraphT:</p>
+
+<ul>
+  <li>graph visualization using the JGraph library (<a href="visualizations.html">try 
+  this demo!</a>)</li>
+  <li>complete source code included, under the terms of the
+  <a href="LGPL.html">GNU Lesser General Public License</a>.</li>
+  <li>comprehensive <a href="http://www.jgrapht.org/javadoc">Javadocs</a>.</li>
+  <li>easy extensibility.</li>
+</ul>
+
+
+
+
+
+<h2>Download</h2>
+<p>
+You can download the latest version of JGraphT from the
+<a href="http://sourceforge.net/projects/jgrapht">project page</a> on 
+SourceForge:</p>
+
+<p>
+<div align="center">
+<table border="1" cellpadding="8" bgcolor="white" width="80%" cellspacing="0" >
+  <tr>
+    <td align="center">
+    <a href="http://prdownloads.sourceforge.net/jgrapht/jgrapht-0.8.3.zip?download">
+    <img alt="zipicon.png" src="images/zipicon.png" border="0" width="32" height="32"></a>
+    <br>
+    <a href="http://prdownloads.sourceforge.net/jgrapht/jgrapht-0.8.3.zip?download">jgrapht-0.8.3.zip</a></td>
+    <td vAlign="top" align="left"><b>Windows Download</b>
+    <br>
+    A ZIP file that contains source code and runtime files of JGraphT. </td>
+  </tr>
+  <tr>
+    <td align="center">
+    <a href="http://prdownloads.sourceforge.net/jgrapht/jgrapht-0.8.3.tar.gz?download">
+    <img alt="foldericon.png" src="images/foldericon.png" border="0" width="32" height="32"></a>
+    <br>
+    <a href="http://prdownloads.sourceforge.net/jgrapht/jgrapht-0.8.3.tar.gz?download">jgrapht-0.8.3.tar.gz</a> </td>
+    <td vAlign="top" align="left"><b>Linux Download</b>
+    <br>
+    A tar.gz file that contains source code and runtime files of JGraphT. </td>
+  </tr>
+</table>
+</div>
+
+<p>
+
+<p>
+There are two downloads, one for Windows-based systems, and one for
+Linux/Unix-based systems. The downloads contain identical Java source
+code and a <code>README.html</code> file to help you to get started.
+Starting with version 0.8.0, JDK 1.6 is required at a minimum (<a href=
+"http://sourceforge.net/project/showfiles.php?group_id=86459&amp;package_id=89784"
+>earlier versions</a> with less functionality can be used on older
+JDK's/JRE's).</p>
+
+<p>
+The
+<a href="http://www.jgrapht.org/javadoc">JavaDoc files</a> 
+are available online. They are also included in the downloads so you
+can view them locally.</p>
+
+
+
+<h2>Support</h2>
+<p>The <a href="http://sourceforge.net/projects/jgrapht">JGraphT project</a> is 
+maintained at SourceForge, where you can:</p>
+
+
+
+
+<ul>
+  <li><b>Get help</b> via the JGraphT
+  <a href="http://lists.sourceforge.net/lists/listinfo/jgrapht-users">users 
+  mailing list</a>.</li>
+  <li><b>Stay informed</b> on new releases via the
+  <a href="http://lists.sourceforge.net/lists/listinfo/jgrapht-announce">
+  announce mailing list</a>.</li>
+  <li><b>Request a new feature</b> for JGraphT using the
+  <a href="http://sourceforge.net/tracker/?group_id=86459&amp;atid=579690">feature tracker</a>.</li>
+  <li><b>Report a bug</b> you might have found in JGraphT using the
+  <a href="http://sourceforge.net/tracker/?group_id=86459&amp;atid=579687">bug 
+  tracker</a>.</li>
+</ul>
+
+
+
+
+<p>If you are reporting a bug, please describe a reproducing scenario.&nbsp;If 
+possible, attach a small program with a description of what is  wrong and 
+needs fixing. </p>
+<p>If you need a bug fixed <i>really</i> urgently, use the source... </p>
+
+
+<p>There is also
+a <a href="https://sourceforge.net/apps/mediawiki/jgrapht/index.php?title=jgrapht:Docs">wiki</a>
+set up for everyone in the JGraphT community to share information
+about the project.</p>
+
+
+
+
+<h2>JGraphT and JGraph</h2>
+
+
+
+
+
+<p dir="ltr">JGraphT and <a href="http://www.jgraph.com/">JGraph</a> are two different libraries which are intended for different purposes. </p>
+
+<p>JGraphT:</p>
+<ul>
+  <li>is focused on data structures and algorithms.</li>
+</ul>
+
+<p>JGraph:</p>
+<ul>
+  <li>is focused on rendering and GUI-based editing.</li>
+</ul>
+
+
+<p>The two libraries are complementary and can be used together via
+the JGraphModelAdapter provided by JGraphT; this adapter allows a
+JGraphT graph data structure to be used as the model being viewed and
+controlled via JGraph.</p>
+
+<h2>Your Improvements</h2>
+<p>If you add new features or fix bugs please
+	<a href="mailto:perfecthash@users.sf.net">
+send us your updates</a>.
+We will add them to the next release of JGraphT 
+so  everyone can enjoy your contribution. You might also benefit from it: 
+others may fix hidden bugs in your code or may contribute new features.</p>
+
+
+
+<p>If you wish to join the JGraphT team, please
+	<a href="mailto:perfecthash@users.sf.net">
+send us a few words</a> about yourself - we'll be happy to grow!<br>
+&nbsp;</p>
+
+<p>&nbsp;</p>
+
+<hr noshade size="2" style="background-color:#7AA1E6;color:#7AA1E6;border-width: thin none none;">
+<table border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse" width="100%">
+  <tr>
+    <td width="10%"align="left"><a href="http://validator.w3.org/check/referer"><img
+          src="http://www.w3.org/Icons/valid-html401" border="0"
+          alt="Valid HTML 4.01!" height="31" width="88"></a></td>
+          
+    <td width="80%"align="center"><small>
+		  &copy; Copyright 2003-2011, by Barak Naveh and Contributors. All rights reserved.</small></td>
+	    
+	<td width="10%" align="right">
+
+<a href="http://sourceforge.net/projects/jgrapht"><img src="http://sflogo.sourceforge.net/sflogo.php?group_id=86459&type=12" width="120" height="30" border="0" alt="Get JGraphT at SourceForge.net. Fast, secure and Free Open Source software downloads" /></a>
+
+</td>
+  </tr>
+</table>
+<br>
+
+
+</body>
+</html>
