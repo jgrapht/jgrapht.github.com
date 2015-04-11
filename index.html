@@ -8,7 +8,7 @@
  * Project Info:  http://jgrapht.sourceforge.net/
  * Project Lead:  Barak Naveh (http://sourceforge.net/users/barak_naveh)
  *
- * (C) Copyright 2003-2013, by Barak Naveh and Contributors.
+ * (C) Copyright 2003-2015, by Barak Naveh and Contributors.
  *
  * This program and the accompanying materials are dual-licensed under
  * either
@@ -25,7 +25,7 @@
 /* ~~~~~~~~~~
  * index.html
  * ~~~~~~~~~~
- * (C) Copyright 2003-2013, by Barak Naveh and Contributors.
+ * (C) Copyright 2003-2015, by Barak Naveh and Contributors.
  *
  * Original Author:  Barak Naveh
  * Contributor(s):   -
@@ -46,6 +46,7 @@
  * 27-Nov-2010 : Updates for 0.8.2 (JVS);
  * 19-Jan-2012 : Updates for 0.8.3 (JVS);
  * 18-Dec-2013 : Updates for 0.9.0 (JVS);
+ * 11-Apr-2015 : Updates for 0.9.1 (JVS);
  * 
  */
 -->
@@ -80,8 +81,7 @@
 <h2>Latest News</h2>
 
 <p>
-Release 0.9.0 is now available, and starting with this release,
-JGraphT is now dual-licensed under LGPL 
+Release 0.9.1 is now available, dual-licensed under LGPL 
 <a href="https://github.com/jgrapht/jgrapht/wiki/Relicensing">and EPL</a>.
 </p>
 
@@ -142,8 +142,15 @@ URLs, XML documents, etc; you can even create graphs of graphs! This
 </ul>
 
 
+<h2>Maven Releases</h2>
 
+Starting from 0.9.0, every JGraphT release is published to the Maven Central Repository. You can add a dependency from your project as follows:
 
+<pre><code>
+  &lt;groupId&gt;org.jgrapht&lt;/groupId&gt;
+  &lt;artifactId&gt;jgrapht-core&lt;/artifactId&gt;
+  &lt;version&gt;0.9.1&lt;/version&gt;
+</code></pre>
 
 <h2>Download</h2>
 <p>
@@ -156,20 +163,20 @@ SourceForge:</p>
 <table border="1" cellpadding="8" bgcolor="white" width="80%" cellspacing="0" >
   <tr>
     <td align="center">
-    <a href="http://prdownloads.sourceforge.net/jgrapht/jgrapht-0.9.0.zip?download">
+    <a href="http://prdownloads.sourceforge.net/jgrapht/jgrapht-0.9.1.zip?download">
     <img alt="zipicon.png" src="images/zipicon.png" border="0" width="32" height="32"></a>
     <br>
-    <a href="http://prdownloads.sourceforge.net/jgrapht/jgrapht-0.9.0.zip?download">jgrapht-0.9.0.zip</a></td>
+    <a href="http://prdownloads.sourceforge.net/jgrapht/jgrapht-0.9.1.zip?download">jgrapht-0.9.1.zip</a></td>
     <td vAlign="top" align="left"><b>Windows Download</b>
     <br>
     A ZIP file that contains source code and runtime files of JGraphT. </td>
   </tr>
   <tr>
     <td align="center">
-    <a href="http://prdownloads.sourceforge.net/jgrapht/jgrapht-0.9.0.tar.gz?download">
+    <a href="http://prdownloads.sourceforge.net/jgrapht/jgrapht-0.9.1.tar.gz?download">
     <img alt="foldericon.png" src="images/foldericon.png" border="0" width="32" height="32"></a>
     <br>
-    <a href="http://prdownloads.sourceforge.net/jgrapht/jgrapht-0.9.0.tar.gz?download">jgrapht-0.9.0.tar.gz</a> </td>
+    <a href="http://prdownloads.sourceforge.net/jgrapht/jgrapht-0.9.1.tar.gz?download">jgrapht-0.9.1.tar.gz</a> </td>
     <td vAlign="top" align="left"><b>Linux Download</b>
     <br>
     A tar.gz file that contains source code and runtime files of JGraphT. </td>
@@ -183,7 +190,7 @@ SourceForge:</p>
 There are two downloads, one for Windows-based systems, and one for
 Linux/Unix-based systems. The downloads contain identical Java source
 code and a <code>README.html</code> file to help you to get started.
-Starting with version 0.8.0, JDK 1.6 is required at a minimum (<a href=
+Starting with version 0.9.1, JDK 1.7 is required at a minimum (<a href=
 "http://sourceforge.net/project/showfiles.php?group_id=86459&amp;package_id=89784"
 >earlier versions</a> with less functionality can be used on older
 JDK's/JRE's).</p>
@@ -219,7 +226,7 @@ maintained at SourceForge, where you can:</p>
 
 
 <p>If you are reporting a bug, please describe a reproducing scenario.&nbsp;If 
-possible, attach a small program with a description of what is  wrong and 
+possible, attach a small program with a description of what is wrong and 
 needs fixing. </p>
 <p>If you need a bug fixed <i>really</i> urgently, use the source... </p>
 
@@ -281,7 +288,7 @@ send us a few words</a> about yourself - we'll be happy to grow!<br>
           alt="Valid HTML 4.01!" height="31" width="88"></a></td>
           
     <td width="80%"align="center"><small>
-		  &copy; Copyright 2003-2011, by Barak Naveh and Contributors. All rights reserved.</small></td>
+		  &copy; Copyright 2003-2015, by Barak Naveh and Contributors. All rights reserved.</small></td>
 	    
 	<td width="10%" align="right">
 
