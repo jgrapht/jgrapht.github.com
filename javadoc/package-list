@@ -15,5 +15,6 @@ org.jgrapht.experimental.permutation
 org.jgrapht.ext
 org.jgrapht.generate
 org.jgrapht.graph
+org.jgrapht.graph.builder
 org.jgrapht.traverse
 org.jgrapht.util
