@@ -5,6 +5,9 @@ org.jgrapht.alg.flow
 org.jgrapht.alg.interfaces
 org.jgrapht.alg.isomorphism
 org.jgrapht.alg.util
+org.jgrapht.alg.util.extension
+org.jgrapht.alg.vertexcover
+org.jgrapht.alg.vertexcover.util
 org.jgrapht.demo
 org.jgrapht.event
 org.jgrapht.experimental
@@ -15,5 +18,6 @@ org.jgrapht.ext
 org.jgrapht.generate
 org.jgrapht.graph
 org.jgrapht.graph.builder
+org.jgrapht.graph.specifics
 org.jgrapht.traverse
 org.jgrapht.util
