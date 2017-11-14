@@ -1,5 +1,7 @@
 org.jgrapht
 org.jgrapht.alg
+org.jgrapht.alg.clique
+org.jgrapht.alg.color
 org.jgrapht.alg.cycle
 org.jgrapht.alg.flow
 org.jgrapht.alg.interfaces
@@ -8,6 +10,7 @@ org.jgrapht.alg.matching
 org.jgrapht.alg.scoring
 org.jgrapht.alg.shortestpath
 org.jgrapht.alg.spanning
+org.jgrapht.alg.tour
 org.jgrapht.alg.util
 org.jgrapht.alg.util.extension
 org.jgrapht.alg.vertexcover
@@ -15,13 +18,11 @@ org.jgrapht.alg.vertexcover.util
 org.jgrapht.demo
 org.jgrapht.event
 org.jgrapht.experimental
-org.jgrapht.experimental.alg
-org.jgrapht.experimental.alg.color
-org.jgrapht.experimental.dag
 org.jgrapht.ext
 org.jgrapht.generate
 org.jgrapht.graph
 org.jgrapht.graph.builder
 org.jgrapht.graph.specifics
+org.jgrapht.io
 org.jgrapht.traverse
 org.jgrapht.util
