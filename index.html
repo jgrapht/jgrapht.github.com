@@ -91,7 +91,8 @@ Release 1.1.0 is now available, dual-licensed under LGPL
 
 <p>
 
-<b>JGraphT source code has moved from the old svn repository to
+<b>Once upon a time, JGraphT source code lived in an svn repository, but these
+days it lives in
 <a href="http://github.com/jgrapht/jgrapht">github</a>.</b>  Please send
 all new contributions there in the form of pull requests!
 
@@ -99,14 +100,14 @@ all new contributions there in the form of pull requests!
 
 <p>
 
-If you'd like to help out with project maintenance, click the Like button for
-our <a href="https://www.facebook.com/jgrapht.adopt.a.highway">"Adopt-a-Highway" initiative on Facebook</a>!
+If you enjoy using JGraphT, please click the Like button for
+our <a href="https://www.facebook.com/jgrapht">Facebook page</a>!
 
 </p>
 
 <p>
 
-<div class="fb-like-box" data-href="http://www.facebook.com/jgrapht.adopt.a.highway" data-width="600" data-show-faces="true" data-stream="false" data-header="false"></div>
+<div class="fb-like-box" data-href="http://www.facebook.com/jgrapht" data-width="600" data-show-faces="true" data-stream="false" data-header="false"></div>
 
 </p>
 
@@ -137,8 +138,7 @@ URLs, XML documents, etc; you can even create graphs of graphs! This
 <p>Other features offered by JGraphT:</p>
 
 <ul>
-  <li>graph visualization using the JGraph library (<a href="visualizations.html">try 
-  this demo!</a>)</li>
+  <li>graph visualization using the JGraphX library</li>
   <li>complete source code included, under the terms of the
   <a href="LGPL.html">GNU Lesser General Public License</a> and the <a href="https://github.com/jgrapht/jgrapht/wiki/Relicensing">EPL</a> as well via dual licensing).</li>
   <li>comprehensive <a href="http://www.jgrapht.org/javadoc">Javadocs</a>.</li>
@@ -235,7 +235,7 @@ can view them locally.</p>
 
 <h2>Support</h2>
 <p>The <a href="http://sourceforge.net/projects/jgrapht">JGraphT project</a> is 
-maintained at SourceForge, where you can:</p>
+maintained on <a href="https://github.com/jgrapht/jgrapht">github</a> and released at SourceForge.  You can:</p>
 
 
 
@@ -250,6 +250,7 @@ maintained at SourceForge, where you can:</p>
   <li><b>Report a bug</b> you might have found in JGraphT using the
   <a href="https://github.com/jgrapht/jgrapht/issues">issue
   tracker</a>, or request an enhancement.</li>
+  <li>Get answers to <b>frequently asked questions</b> at <a href="https://stackoverflow.com/questions/tagged/jgrapht">Stack Overflow</a>.
 </ul>
 
 
@@ -257,7 +258,7 @@ maintained at SourceForge, where you can:</p>
 
 <p>If you are reporting a bug, please describe a reproducing scenario.&nbsp;If 
 possible, attach a small program with a description of what is wrong and 
-needs fixing. </p>
+needs fixing.</p>
 <p>If you need a bug fixed <i>really</i> urgently, use the source... </p>
 
 
@@ -269,29 +270,27 @@ about the project.</p>
 
 
 
-<h2>JGraphT and JGraph</h2>
+<h2>JGraphT and JGraphX</h2>
 
-
-
-
-
-<p dir="ltr">JGraphT and <a href="http://www.jgraph.com/">JGraph</a> are two different libraries which are intended for different purposes. </p>
+<p dir="ltr">JGraphT and <a href="https://github.com/jgraph/jgraphx">JGraphX</a> are two different libraries which are intended for different purposes. </p>
 
 <p>JGraphT:</p>
 <ul>
   <li>is focused on data structures and algorithms.</li>
 </ul>
 
-<p>JGraph:</p>
+<p>JGraphX:</p>
 <ul>
   <li>is focused on rendering and GUI-based editing.</li>
 </ul>
 
 
 <p>The two libraries are complementary and can be used together via
-the JGraphModelAdapter provided by JGraphT; this adapter allows a
+the JGraphXAdapter provided by JGraphT; this adapter allows a
 JGraphT graph data structure to be used as the model being viewed and
-controlled via JGraph.</p>
+controlled via JGraphX.</p>
+
+<p>Note that JGraphX is the successor to the older JGraph project, which reached its end of life years ago.  JGraphT used to maintain JGraph support as well, but as of JGraphT release 1.1.1, this support is being dropped, so users should migrate to JGraphX instead.</p>
 
 <h2>Your Improvements</h2>
 <p>If you add new features or fix bugs please
